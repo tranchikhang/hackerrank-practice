@@ -20,7 +20,6 @@ def pairs(k, arr):
     arr = set(arr)
 
     count = 0
-    # arr.sort()
     for i in arr:
         print(i)
         if abs(k+i) in arr:
