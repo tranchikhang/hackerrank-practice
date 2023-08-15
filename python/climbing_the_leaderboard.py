@@ -40,7 +40,6 @@ def climbingLeaderboard(scores, player):
         pScore = p
         flg = False
         idx = bisect(scores, pScore)
-        print("idex: {}".format(idx))
         if idx==len(scores):
             pRank = 1
         else:

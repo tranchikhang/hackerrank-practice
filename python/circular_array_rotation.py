@@ -20,7 +20,6 @@ def circularArrayRotation(a, k, queries):
     # Write your code here
     l = len(a)
     k = k%l
-    print(k)
     new_arr = a[l-k:] + a[0:l-k]
     res = []
     for q in queries:
