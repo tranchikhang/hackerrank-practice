@@ -31,19 +31,8 @@ function freqQuery($queries) {
             } else {
                 $str[] = 0;
             }
-            // foreach ($result as $key => $v) {
-            //     if ($v == $val) {
-            //         $str[] = 1;
-            //         $flg = true;
-            //         break;
-            //     }
-            // }
-            // if (!$flg) {
-            //     $str[] = 0;
-            // }
         }
     }
-    // print_r($str);
     return $str;
 }
 
